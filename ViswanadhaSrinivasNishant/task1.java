@@ -1,6 +1,6 @@
 import java.util.Scanner;
 class task1 {
-    public static void main (String args[]) {
+    void function() {
         
         // taking the input from the user
         Scanner in = new Scanner(System.in);
@@ -10,7 +10,8 @@ class task1 {
         {     
             //reading array elements from the user   
             array[i]=in.nextInt();  
-        }  
+        } 
+        in.close();
 
         // code logic
         // defining a result variables

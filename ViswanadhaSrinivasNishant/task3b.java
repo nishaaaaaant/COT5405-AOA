@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class task3b {
-    public static void main (String args[]) {
+    void function () {
        // taking the input from the user
        Scanner in = new Scanner(System.in);
        int n = in.nextInt();

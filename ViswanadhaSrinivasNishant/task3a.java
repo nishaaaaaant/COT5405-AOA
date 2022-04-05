@@ -32,7 +32,7 @@ public class task3a {
         }
         return currentSum;
     }
-    public static void main (String args[]) {
+    void function () {
         // defining inputs
        // taking the input from the user
        Scanner in = new Scanner(System.in);
@@ -43,7 +43,7 @@ public class task3a {
            //reading array elements from the user   
            array[i]=in.nextInt();  
        }
-
+       in.close();
         // code logic
         // here we are calling recursion function 
         int sum = findMaximumSum(0, array);

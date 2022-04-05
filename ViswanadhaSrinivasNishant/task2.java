@@ -1,6 +1,6 @@
 import java.util.Scanner;
 class task2 {
-    public static void main (String args[]) {        
+    void function () {        
         // taking the input from the user
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
@@ -10,7 +10,7 @@ class task2 {
             //reading array elements from the user   
             array[i]=in.nextInt();  
         }
-
+        in.close();
 
         // code logic
         // we are defining a 2D array to store sum of all possible subarrays
